@@ -12,7 +12,7 @@ const Navbar = () => {
   const currentPathname = usePathname()  
   const links = [
     { label: "Dshboard", href: "/" },
-    { label: "Issues", href: "/Issues" },
+    { label: "Issues", href: "/issues" },
   ];
   return (
     <div className="flex space-x-4 mb-4 px-4 items-center border-b-2 h-14">
